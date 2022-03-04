@@ -10,33 +10,37 @@ function Header() {
                 </h1>
                 <div className="px-1 py-2 inline-flex">
                     <div className='px-3'>
-                        <a href='https://youtube.com/c/xtrmdev' className="hover:text-fuchsia-200">
+                        <a href='https://youtube.com/c/xtrmdev' className="hover:text-fuchsia-100">
                             <Youtube size={24} />
                         </a>
                     </div>
                     <div className='px-3'>
-                        <a href='https://twitter.com/xtrmdev' className="hover:text-fuchsia-200">
+                        <a href='https://twitter.com/xtrmdev' className="hover:text-fuchsia-100">
                             <Twitter size={24} />
                         </a>
                     </div>
                     <div className='px-3'>
-                        <a href='https://github.com/xtrm-en' className="hover:text-fuchsia-200">
+                        <a href='https://github.com/xtrm-en' className="hover:text-fuchsia-100">
                             <Github size={24} />
                         </a>
                     </div>
                     <div className='px-3'>
-                        <a href='https://discord.xtrm.me' className="hover:text-fuchsia-200">
+                        <a href='https://discord.stardustenterprises.fr' className="hover:text-fuchsia-100">
                             <Discord size={24} />
                         </a>
                     </div>
                 </div>
                 <p className='py-6'>
                     <a href="mailto:contact@xtrm.me" className="px-1 hover:text-fuchsia-200 hover:underline">
-                        contact me
+                        contact
                     </a>
                     -
-                    <a href="portfolio" className="px-1 hover:text-fuchsia-200 hover:underline">
-                        my portfolio
+                    <a href="https://portfolio.xtrm.me" className="px-1 hover:text-fuchsia-200 hover:underline">
+                        portfolio
+                    </a>
+                    -
+                    <a href="https://source.xtrm.me" className="px-1 hover:text-fuchsia-200 hover:underline">
+                        sources
                     </a>
                 </p>
             </div>

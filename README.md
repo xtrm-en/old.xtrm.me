@@ -1,2 +1,2 @@
 # xtrm.me
-my portfolio website
+my personal website

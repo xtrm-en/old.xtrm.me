@@ -1,4 +1,4 @@
-import SocialLink from './SocialLink'
+import Icon from '@ailibs/feather-react-ts'
 
 function Header() {
     return (
@@ -8,9 +8,22 @@ function Header() {
                 <h1 className="font-bold text-2xl">
                     Heya 👋 I'm xtrm.
                 </h1>
-                <div className="px-2 inline-flex">
-                    <SocialLink icon='fa-brands fa-github' url='https://github.com/xtrm-en' />
-                    <SocialLink icon='fa-brands fa-twitter' url='https://twitter.com/xtrmdev' />
+                <div className="px-1 py-2 inline-flex">
+                    <div className='px-1'>
+                        <a href='https://github.com/xtrm-en'>
+                            <Icon name='github' strokeWidth={1.3} />
+                        </a>
+                    </div>
+                    <div className='px-1'>
+                        <a href='https://twitter.com/xtrmdev'>
+                            <Icon name='twitter' strokeWidth={1.3} />
+                        </a>
+                    </div>
+                    <div className='px-1'>
+                        <a href='https://youtube.com/c/xtrmdev'>
+                            <Icon name='youtube' strokeWidth={1.3} />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

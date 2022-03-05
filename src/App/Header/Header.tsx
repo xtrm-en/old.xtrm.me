@@ -1,4 +1,4 @@
-import { Youtube, Twitter, Github, Discord } from '@icons-pack/react-simple-icons';
+import { Youtube, Twitter, Github, Discord, Facebook} from '@icons-pack/react-simple-icons';
 
 function Header() {
     return (
@@ -9,24 +9,29 @@ function Header() {
                     Heya 👋 I'm xtrm.
                 </h1>
                 <div className="px-1 py-2 inline-flex">
-                    <div className='px-3'>
+                    <div className='px-2'>
                         <a href='https://youtube.com/c/xtrmdev' className="hover:text-fuchsia-100">
-                            <Youtube size={24} />
+                            <Youtube />
                         </a>
                     </div>
-                    <div className='px-3'>
+                    <div className='px-2'>
                         <a href='https://twitter.com/xtrmdev' className="hover:text-fuchsia-100">
-                            <Twitter size={24} />
+                            <Twitter />
                         </a>
                     </div>
-                    <div className='px-3'>
+                    <div className='px-2'>
                         <a href='https://github.com/xtrm-en' className="hover:text-fuchsia-100">
-                            <Github size={24} />
+                            <Github />
                         </a>
                     </div>
-                    <div className='px-3'>
+                    <div className='px-2'>
                         <a href='https://discord.stardustenterprises.fr' className="hover:text-fuchsia-100">
-                            <Discord size={24} />
+                            <Discord />
+                        </a>
+                    </div>
+                    <div className='px-2'>
+                        <a href='https://youtu.be/-pHhb4biR9k' className="hover:text-fuchsia-100">
+                            <Facebook />
                         </a>
                     </div>
                 </div>

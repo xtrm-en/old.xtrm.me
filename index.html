@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>xtrm.me &mdash; home</title>
   </head>
-  <body>
+  <body style="overflow: hidden;">
     <noscript>
-      Sorry, I do understand protecting your privacy is important to you, but this website requires a little amount of JavaScript to run properly.
-      You can check its source code at https://source.xtrm.me/ if you are unsure about trusting my low-level JS code.
+      <div id="wrapper" style="position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; background-color: #111; color: #ecf0f1; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        <div id="center-box" style="position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; min-width: 90%;">
+          Sorry, I do understand protecting your privacy is important to you,
+          but this website requires a little amount of JavaScript to run
+          properly.
+          <br>
+          You can check its source code at
+          <a href="https://source.xtrm.me">source.xtrm.me</a> if you are unsure
+          about trusting my low-level JS code.
+        </div>
+      </div>
     </noscript>
 
     <div id="root"></div>

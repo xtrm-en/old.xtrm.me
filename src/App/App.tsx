@@ -22,7 +22,7 @@ function App() {
                 </SocialBox>
                 <LinkBox>
                     <Link url="mailto:contact@xtrm.me">contact</Link>
-                    <Link url="https://portfolio.xtrm.me">portfolio</Link>
+                    <Link url="https://test.xtrm.me">new website</Link>
                     <Link url="https://source.xtrm.me">sources</Link>
                 </LinkBox>
             </div>

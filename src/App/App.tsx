@@ -11,7 +11,7 @@ function App() {
             <img src="https://avatars.githubusercontent.com/u/26600206?v=4" alt="xtrm-logo" className="rounded h-32"></img>
             <div className="px-4">
                 <h1 className="font-bold text-2xl">
-                    Heya 👋 I'm xtrm.
+                    Heya 👋 I'm killian.
                 </h1>
                 <SocialBox>
                     <Link url="https://youtube.com/c/xtrmdev"><Youtube /></Link>
@@ -22,7 +22,7 @@ function App() {
                 </SocialBox>
                 <LinkBox>
                     <Link url="mailto:contact@xtrm.me">contact</Link>
-                    <Link url="https://test.xtrm.me">new website</Link>
+                    <Link url="https://test.xtrm.me">testing</Link>
                     <Link url="https://source.xtrm.me">sources</Link>
                 </LinkBox>
             </div>

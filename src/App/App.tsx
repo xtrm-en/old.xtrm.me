@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="h-screen flex items-center justify-center bg-black text-white font-light">
         <div className="container max-w-screen-sm mx-auto pb-10 flex justify-center">
-            <img src="https://avatars.githubusercontent.com/u/26600206?v=4" alt="xtrm-logo" className="rounded h-32"></img>
+            <img src="./i/logo.png" alt="xtrm-logo" className="rounded h-32"></img>
             <div className="px-4">
                 <h1 className="font-bold text-2xl">
                     Heya 👋 I'm killian.

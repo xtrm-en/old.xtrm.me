@@ -1,4 +1,4 @@
-import { Youtube, Twitter, Github, Discord, Facebook } from "@icons-pack/react-simple-icons";
+import { Youtube, Twitter, Github, Discord, Mastodon } from "@icons-pack/react-simple-icons";
 
 import SocialBox from "./SocialBox";
 import LinkBox from "./LinkBox";
@@ -18,7 +18,7 @@ function App() {
                     <Link url="https://twitter.com/xtrmdev"><Twitter /></Link>
                     <Link url="https://github.com/xtrm-en"><Github /></Link>
                     <Link url="https://discord.stardustenterprises.fr"><Discord /></Link>
-                    <Link url="https://youtu.be/-pHhb4biR9k"><Facebook /></Link>
+                    <Link url="https://tech.lgbt/@xtrm"><Mastodon /></Link>
                 </SocialBox>
                 <LinkBox>
                     <Link url="mailto:contact@xtrm.me">contact</Link>

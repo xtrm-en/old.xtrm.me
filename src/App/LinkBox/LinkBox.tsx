@@ -9,7 +9,7 @@ function LinkBox({ children } : { children: React.ReactElement[] }) {
           .filter((el) => el.type === Link)  // Only keep children which are links
           .map((link, i, arr) =>
             <React.Fragment key={i /* react complains without this prop */}>
-              <a href={link.props.url} className="px-1 hover:text-fuchsia-200 hover:underline">
+              <a /* for mastodon */ rel="me" href={link.props.url} className="px-1 hover:text-fuchsia-200 hover:underline">
                 {link.props.children}
               </a>
               { // We add a separator after each element that is not the last

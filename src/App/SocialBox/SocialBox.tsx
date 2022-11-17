@@ -9,7 +9,7 @@ function SocialBox({ children } : { children: React.ReactElement[] }) {
           .filter((el) => el.type === Link)  // Only keep children which are links
           .map((link, i) =>
             <React.Fragment key={i /* react complains without this prop */}>
-              <a href={link.props.url} className="px-2 hover:text-fuchsia-100">
+              <a /* mastodon verification */ rel="me" href={link.props.url} className="px-2 hover:text-fuchsia-100">
                 {link.props.children}
               </a>
             </React.Fragment>

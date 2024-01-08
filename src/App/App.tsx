@@ -17,12 +17,12 @@ function App() {
                     <Link url="https://youtube.com/c/xtrmdev"><Youtube /></Link>
                     <Link url="https://twitter.com/xtrmdev"><Twitter /></Link>
                     <Link url="https://github.com/xtrm-en"><Github /></Link>
-                    <Link url="https://discord.stardustenterprises.fr"><Discord /></Link>
+                    <Link url="https://stardust.enterprises/discord"><Discord /></Link>
                     <Link url="https://tech.lgbt/@xtrm"><Mastodon /></Link>
                 </SocialBox>
                 <LinkBox>
                     <Link url="mailto:contact@xtrm.me">contact</Link>
-                    <Link url="https://test.xtrm.me">testing</Link>
+                    <Link url="https://blog.xtrm.me">blog</Link>
                     <Link url="https://source.xtrm.me">sources</Link>
                 </LinkBox>
             </div>

@@ -1,2 +1,2 @@
-# xtrm.me
-my personal website
+# old.xtrm.me
+legacy bloatware :3
